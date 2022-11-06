@@ -1,0 +1,44 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.repo__wrapper {
+  padding: 0 0;
+  background-color: blue;
+  color: aliceblue;
+  text-align: center;
+}
+
+.repo__wrapper > table > thead{
+  font-size: 30px;
+  font-weight: 700;
+  color: lightblue;
+}
+
+.repo__wrapper > table > tbody {
+  font-size: 15px;
+}
+
+.repo__wrapper > table > tbody > td {
+  text-decoration: none;
+  text-transform: uppercase;
+  border-top: 1px solid antiquewhite;
+  padding: 1rem 0;
+}
+
+.repo__wrapper > table > tbody > td a{
+  color: aliceblue;
+}
+
+.repo__wrapper > table > tbody > td:hover {
+  color: lightblue;
+  transition: 0.8s;
+  transform: scale(1.1);
+}
+
+.repo__wrapper>button{
+  position: absolute;
+  top: -3%;
+  right: 6%;
+}

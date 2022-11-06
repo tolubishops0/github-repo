@@ -1,0 +1,26 @@
+div {
+  text-align: center;
+  background: blue;
+  color: antiquewhite;
+  padding: 5rem;
+  background-repeat: no-repeat;
+}
+
+button {
+  margin-top: 50px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 1rem 3rem;
+  background-color: antiquewhite;
+  color: blue;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #37d5d6, #36096d);
+  color: antiquewhite;
+  transition: 0.5s;
+  border: 1px groove antiquewhite;
+}
